@@ -1,0 +1,22 @@
+{
+  "name": "server_lib",
+  "version": "1.0.0",
+  "description": "for sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dStart": "nodemon index.js",
+    "run": "node index.js"
+  },
+  "author": "srikumaran",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.0",
+    "mongoose": "^8.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
